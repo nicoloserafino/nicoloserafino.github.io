@@ -129,7 +129,7 @@ function drawCurve(points, color) {
 function Text() {
   context.fillStyle = "black";
   context.font = "20px Helvetica, sans-serif";
-  context.fillText("created with love", (canvas.width / 2)-68, canvas.height-100);
+  context.fillText("creato con amore", (canvas.width / 2)-68, canvas.height-100);
 
 }
   canvas.addEventListener("click", function(){ window.location.replace("/portfolio"); });
